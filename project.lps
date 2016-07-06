@@ -514,14 +514,13 @@
         <UsageCount Value="12"/>
       </Unit71>
       <Unit72>
-        <Filename Value="..\..\..\..\usr\share\fpcsrc\3.0.0\rtl\objpas\sysutils\filutilh.inc"/>
-        <EditorIndex Value="5"/>
+        <Filename Value="D:\usr\share\fpcsrc\3.0.0\rtl\objpas\sysutils\filutilh.inc"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="3" Y="89"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit72>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="29" HistoryIndex="28">
       <Position1>
         <Filename Value="helpers.pas"/>
         <Caret Line="86" TopLine="61"/>
@@ -632,16 +631,12 @@
       </Position27>
       <Position28>
         <Filename Value="mainformunit.pas"/>
-        <Caret Line="75" Column="87" TopLine="169"/>
+        <Caret Line="440" Column="8" TopLine="401"/>
       </Position28>
       <Position29>
         <Filename Value="mainformunit.pas"/>
-        <Caret Line="440" Column="8" TopLine="401"/>
-      </Position29>
-      <Position30>
-        <Filename Value="mainformunit.pas"/>
         <Caret Line="439" Column="8" TopLine="400"/>
-      </Position30>
+      </Position29>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

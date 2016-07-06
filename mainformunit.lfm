@@ -528,7 +528,7 @@ object MainForm: TMainForm
     Width = 512
     Anchors = [akTop, akLeft, akRight]
     Caption = '[INPUT_FOLDER]'
-    ClientHeight = 61
+    ClientHeight = 60
     ClientWidth = 508
     Font.Color = clGray
     ParentColor = False
@@ -536,7 +536,7 @@ object MainForm: TMainForm
     TabOrder = 2
     object ed_picturesFolder: TEdit
       Left = 10
-      Height = 27
+      Height = 23
       Top = 1
       Width = 361
       Anchors = [akTop, akLeft, akRight]
@@ -583,15 +583,15 @@ object MainForm: TMainForm
     TabOrder = 0
     object tab_picturesList: TTabSheet
       Caption = '[PICTURES_LIST_TAB]'
-      ClientHeight = 217
-      ClientWidth = 348
+      ClientHeight = 220
+      ClientWidth = 344
       Font.Color = clBtnText
       ParentFont = False
       object grid_picturesFiles: TStringGrid
         Left = 0
-        Height = 217
+        Height = 220
         Top = 0
-        Width = 348
+        Width = 344
         Align = alClient
         Columns = <        
           item
@@ -638,16 +638,16 @@ object MainForm: TMainForm
     end
     object tab_resize: TTabSheet
       Caption = '[RESIZE_TAB]'
-      ClientHeight = 217
-      ClientWidth = 348
+      ClientHeight = 220
+      ClientWidth = 344
       Font.Color = clBtnText
       ParentFont = False
       object cb_resizeProfiles: TComboBox
         Left = 69
-        Height = 27
+        Height = 23
         Top = 32
         Width = 201
-        ItemHeight = 0
+        ItemHeight = 15
         OnChange = cb_resizeProfilesChange
         TabOrder = 0
         Text = '[RESIZE_PROFILE]'
@@ -656,7 +656,7 @@ object MainForm: TMainForm
         AnchorSideLeft.Side = asrBottom
         AnchorSideRight.Side = asrCenter
         Left = 156
-        Height = 27
+        Height = 23
         Top = 72
         Width = 81
         NumbersOnly = True
@@ -668,9 +668,9 @@ object MainForm: TMainForm
         AnchorSideLeft.Side = asrBottom
         AnchorSideRight.Side = asrCenter
         Left = 240
-        Height = 17
+        Height = 15
         Top = 76
-        Width = 13
+        Width = 12
         Caption = 'px'
         ParentColor = False
       end
@@ -678,9 +678,9 @@ object MainForm: TMainForm
         AnchorSideLeft.Side = asrBottom
         AnchorSideRight.Side = asrCenter
         Left = 240
-        Height = 17
+        Height = 15
         Top = 104
-        Width = 13
+        Width = 12
         Caption = 'px'
         ParentColor = False
       end
@@ -688,7 +688,7 @@ object MainForm: TMainForm
         AnchorSideLeft.Side = asrBottom
         AnchorSideRight.Side = asrCenter
         Left = 156
-        Height = 27
+        Height = 23
         Top = 100
         Width = 82
         NumbersOnly = True
@@ -721,9 +721,9 @@ object MainForm: TMainForm
       end
       object check_saveRatio: TCheckBox
         Left = 96
-        Height = 22
+        Height = 19
         Top = 136
-        Width = 135
+        Width = 134
         Caption = '[RESIZE_SAVE_RATIO]'
         Checked = True
         State = cbChecked
@@ -731,9 +731,9 @@ object MainForm: TMainForm
       end
       object check_detectRotation: TCheckBox
         Left = 96
-        Height = 22
+        Height = 19
         Top = 160
-        Width = 176
+        Width = 174
         Caption = '[RESIZE_DETECT_ROTATION]'
         Checked = True
         State = cbChecked
@@ -742,20 +742,20 @@ object MainForm: TMainForm
     end
     object tab_destination: TTabSheet
       Caption = '[DESTINATION_TAB]'
-      ClientHeight = 217
-      ClientWidth = 348
+      ClientHeight = 220
+      ClientWidth = 344
       Font.Color = clBtnText
       ParentFont = False
       object grp_exif: TGroupBox
         Left = 8
-        Height = 104
+        Height = 96
         Top = 120
-        Width = 326
+        Width = 322
         Align = alCustom
         Anchors = [akTop, akLeft, akRight]
         Caption = '[DEST_GRP_FOLDER]'
-        ClientHeight = 85
-        ClientWidth = 322
+        ClientHeight = 76
+        ClientWidth = 318
         TabOrder = 0
         object rd_by_exif_data: TRadioButton
           Left = 8
@@ -771,10 +771,10 @@ object MainForm: TMainForm
         end
         object cbx_folders_by_exif_data: TComboBox
           Left = 152
-          Height = 27
+          Height = 23
           Top = 43
           Width = 152
-          ItemHeight = 0
+          ItemHeight = 15
           TabOrder = 1
         end
         object rd_custom_folder: TRadioButton
@@ -805,7 +805,7 @@ object MainForm: TMainForm
         end
         object ed_newFolder: TEdit
           Left = 152
-          Height = 24
+          Height = 23
           Top = 19
           Width = 152
           Constraints.MaxHeight = 24
@@ -819,7 +819,7 @@ object MainForm: TMainForm
         Top = 8
         Width = 328
         Caption = '[DEST_GRP_FILENAME]'
-        ClientHeight = 85
+        ClientHeight = 84
         ClientWidth = 324
         TabOrder = 1
         object rd_renameCustom: TRadioButton
@@ -836,7 +836,7 @@ object MainForm: TMainForm
         end
         object ed_renameCustom: TEdit
           Left = 152
-          Height = 24
+          Height = 23
           Top = 24
           Width = 152
           Constraints.MaxHeight = 24
@@ -857,17 +857,17 @@ object MainForm: TMainForm
         end
         object cbx_rename_by_exif_data: TComboBox
           Left = 152
-          Height = 27
+          Height = 23
           Top = 48
           Width = 152
-          ItemHeight = 0
+          ItemHeight = 15
           TabOrder = 3
         end
         object rd_noRename: TRadioButton
-          Left = -18
+          Left = 8
           Height = 24
           Top = 0
-          Width = 162
+          Width = 136
           Alignment = taLeftJustify
           AutoSize = False
           BidiMode = bdRightToLeft
@@ -897,10 +897,10 @@ object MainForm: TMainForm
       end
       object cbx_outputExt: TComboBox
         Left = 200
-        Height = 27
+        Height = 23
         Top = 112
         Width = 56
-        ItemHeight = 0
+        ItemHeight = 15
         ItemIndex = 0
         Items.Strings = (
           '.jpg'
@@ -1477,9 +1477,9 @@ object MainForm: TMainForm
   end
   object lbl_version: TLabel
     Left = 200
-    Height = 11
+    Height = 8
     Top = 8
-    Width = 19
+    Width = 11
     Caption = '0.9.2'
     Font.Color = clBtnText
     Font.Height = 8
