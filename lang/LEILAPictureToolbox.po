@@ -1,0 +1,220 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: globalizationdatas.rs_appname
+msgid "Leila Picture Toolbox"
+msgstr ""
+
+#: globalizationdatas.rs_choosedirectory
+msgid "Select directory"
+msgstr ""
+
+#: globalizationdatas.rs_dateerrorfolder
+msgid "Date error"
+msgstr ""
+
+#: globalizationdatas.rs_destexifdate
+msgctxt "globalizationdatas.rs_destexifdate"
+msgid "Date"
+msgstr ""
+
+#: globalizationdatas.rs_destexifmodel
+msgctxt "globalizationdatas.rs_destexifmodel"
+msgid "Model"
+msgstr ""
+
+#: globalizationdatas.rs_destexifresolution
+msgid "Resolution"
+msgstr ""
+
+#: globalizationdatas.rs_destfilename
+msgid "FileName"
+msgstr ""
+
+#: globalizationdatas.rs_destfoldername
+msgctxt "globalizationdatas.rs_destfoldername"
+msgid "Folder"
+msgstr ""
+
+#: globalizationdatas.rs_destrdcustomrename
+msgctxt "globalizationdatas.rs_destrdcustomrename"
+msgid "Custom"
+msgstr ""
+
+#: globalizationdatas.rs_destrdexiffolder
+msgctxt "globalizationdatas.rs_destrdexiffolder"
+msgid "Folder by exif"
+msgstr ""
+
+#: globalizationdatas.rs_destrdexifrename
+msgctxt "globalizationdatas.rs_destrdexifrename"
+msgid "Rename by exif"
+msgstr ""
+
+#: globalizationdatas.rs_destrdnorename
+msgctxt "globalizationdatas.rs_destrdnorename"
+msgid "No rename"
+msgstr ""
+
+#: globalizationdatas.rs_destrdsamefolder
+msgctxt "globalizationdatas.rs_destrdsamefolder"
+msgid "Same folder"
+msgstr ""
+
+#: globalizationdatas.rs_destrdsubfolder
+msgctxt "globalizationdatas.rs_destrdsubfolder"
+msgid "Sub folder"
+msgstr ""
+
+#: globalizationdatas.rs_destrenameexemple
+msgctxt "globalizationdatas.rs_destrenameexemple"
+msgid "Resized_"
+msgstr ""
+
+#: globalizationdatas.rs_destsubfolderexemple
+msgid "Resized pictures"
+msgstr ""
+
+#: globalizationdatas.rs_dirisempty
+msgid "Directory is empty"
+msgstr ""
+
+#: globalizationdatas.rs_formatother
+msgid "Other format"
+msgstr ""
+
+#: globalizationdatas.rs_formatsame
+msgid "Same format"
+msgstr ""
+
+#: globalizationdatas.rs_inputbrowse
+msgid "Browse"
+msgstr ""
+
+#: globalizationdatas.rs_inputfolder
+msgctxt "globalizationdatas.rs_inputfolder"
+msgid "Folder"
+msgstr ""
+
+#: globalizationdatas.rs_inputrecursive
+msgid "Recursive"
+msgstr ""
+
+#: globalizationdatas.rs_loading
+msgid "Loading..."
+msgstr ""
+
+#: globalizationdatas.rs_picinfoexif
+msgid "Model : %s - Date : %s"
+msgstr ""
+
+#: globalizationdatas.rs_picinfosizes
+msgid "Height : %d px - Width : %d px"
+msgstr ""
+
+#: globalizationdatas.rs_profile4k
+msgctxt "globalizationdatas.rs_profile4k"
+msgid "4K"
+msgstr ""
+
+#: globalizationdatas.rs_profilehd
+msgctxt "globalizationdatas.rs_profilehd"
+msgid "HD"
+msgstr ""
+
+#: globalizationdatas.rs_profilelow
+msgctxt "globalizationdatas.rs_profilelow"
+msgid "Low"
+msgstr ""
+
+#: globalizationdatas.rs_profilemail
+msgctxt "globalizationdatas.rs_profilemail"
+msgid "Mail"
+msgstr ""
+
+#: globalizationdatas.rs_profilemedium
+msgctxt "globalizationdatas.rs_profilemedium"
+msgid "Medium"
+msgstr ""
+
+#: globalizationdatas.rs_profilethumb
+msgctxt "globalizationdatas.rs_profilethumb"
+msgid "Thumb"
+msgstr ""
+
+#: globalizationdatas.rs_profileverylow
+msgctxt "globalizationdatas.rs_profileverylow"
+msgid "Very Low"
+msgstr ""
+
+#: globalizationdatas.rs_resizedetectrotation
+msgid "Detect rotation"
+msgstr ""
+
+#: globalizationdatas.rs_resizeheight
+msgctxt "globalizationdatas.rs_resizeheight"
+msgid "Height"
+msgstr ""
+
+#: globalizationdatas.rs_resizeprofile
+msgid "Profile"
+msgstr ""
+
+#: globalizationdatas.rs_resizesaveratio
+msgid "Save ratio"
+msgstr ""
+
+#: globalizationdatas.rs_resizewidth
+msgctxt "globalizationdatas.rs_resizewidth"
+msgid "Width"
+msgstr ""
+
+#: globalizationdatas.rs_resizingrunning
+msgid "Resizing running"
+msgstr ""
+
+#: globalizationdatas.rs_resizingterminated
+msgid "Resizing complete"
+msgstr ""
+
+#: globalizationdatas.rs_runbtn
+msgid "Start"
+msgstr ""
+
+#: globalizationdatas.rs_stopbtn
+msgid "Stop"
+msgstr ""
+
+#: globalizationdatas.rs_tabdestination
+msgid "Destination"
+msgstr ""
+
+#: globalizationdatas.rs_tabfileformat
+msgid "Format"
+msgstr ""
+
+#: globalizationdatas.rs_tabpicturelist
+msgid "Images list"
+msgstr ""
+
+#: globalizationdatas.rs_tabresize
+msgid "Resizing"
+msgstr ""
+
+#: globalizationdatas.rs_titledate
+msgctxt "globalizationdatas.rs_titledate"
+msgid "Date"
+msgstr ""
+
+#: globalizationdatas.rs_titlename
+msgid "Name"
+msgstr ""
+
+#: globalizationdatas.rs_titlesize
+msgid "Size"
+msgstr ""
+
+#: globalizationdatas.rs_waitingpics
+msgid "Waiting pictures"
+msgstr ""
+

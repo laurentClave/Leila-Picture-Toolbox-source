@@ -1,0 +1,220 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: globalizationdatas.rs_appname
+msgid "Leila Picture Toolbox"
+msgstr "Leila Picture Toolbox"
+
+#: globalizationdatas.rs_choosedirectory
+msgid "Select directory"
+msgstr "Sélectionner le dossier contenant les images"
+
+#: globalizationdatas.rs_dateerrorfolder
+msgid "Date error"
+msgstr "Aucune date"
+
+#: globalizationdatas.rs_destexifdate
+msgctxt "globalizationdatas.rs_destexifdate"
+msgid "Date"
+msgstr "Date"
+
+#: globalizationdatas.rs_destexifmodel
+msgctxt "globalizationdatas.rs_destexifmodel"
+msgid "Model"
+msgstr "Appareil"
+
+#: globalizationdatas.rs_destexifresolution
+msgid "Resolution"
+msgstr "Résolution"
+
+#: globalizationdatas.rs_destfilename
+msgid "FileName"
+msgstr "Nom du fichier"
+
+#: globalizationdatas.rs_destfoldername
+msgctxt "globalizationdatas.rs_destfoldername"
+msgid "Folder"
+msgstr "Dossier"
+
+#: globalizationdatas.rs_destrdcustomrename
+msgctxt "globalizationdatas.rs_destrdcustomrename"
+msgid "Custom"
+msgstr "Autre"
+
+#: globalizationdatas.rs_destrdexiffolder
+msgctxt "globalizationdatas.rs_destrdexiffolder"
+msgid "Folder by exif"
+msgstr "Dossier par données exif"
+
+#: globalizationdatas.rs_destrdexifrename
+msgctxt "globalizationdatas.rs_destrdexifrename"
+msgid "Renommer par données exif"
+msgstr ""
+
+#: globalizationdatas.rs_destrdnorename
+msgctxt "globalizationdatas.rs_destrdnorename"
+msgid "No rename"
+msgstr "Ne pas renommer"
+
+#: globalizationdatas.rs_destrdsamefolder
+msgctxt "globalizationdatas.rs_destrdsamefolder"
+msgid "Same folder"
+msgstr "Même dossier"
+
+#: globalizationdatas.rs_destrdsubfolder
+msgctxt "globalizationdatas.rs_destrdsubfolder"
+msgid "Sub folder"
+msgstr "Sous-dossier"
+
+#: globalizationdatas.rs_destrenameexemple
+msgctxt "globalizationdatas.rs_destrenameexemple"
+msgid "Resized_"
+msgstr "Redim_"
+
+#: globalizationdatas.rs_destsubfolderexemple
+msgid "Resized pictures"
+msgstr "Images redimensionnées"
+
+#: globalizationdatas.rs_dirisempty
+msgid "Directory is empty"
+msgstr "Ce dossier ne contient pas d'images valides"
+
+#: globalizationdatas.rs_formatother
+msgid "Other format"
+msgstr "Autre format"
+
+#: globalizationdatas.rs_formatsame
+msgid "Same format"
+msgstr "Même format"
+
+#: globalizationdatas.rs_inputbrowse
+msgid "Browse"
+msgstr "Parcourir"
+
+#: globalizationdatas.rs_inputfolder
+msgctxt "globalizationdatas.rs_inputfolder"
+msgid "Folder"
+msgstr "Dossier"
+
+#: globalizationdatas.rs_inputrecursive
+msgid "Recursive"
+msgstr "Récursif"
+
+#: globalizationdatas.rs_loading
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: globalizationdatas.rs_picinfoexif
+msgid "Model : %s - Date : %s"
+msgstr "Appareil : %s - Date : %s"
+
+#: globalizationdatas.rs_picinfosizes
+msgid "Height : %d px - Width : %d px"
+msgstr "Hauteur : %d px - Largeur : %d px"
+
+#: globalizationdatas.rs_profile4k
+msgctxt "globalizationdatas.rs_profile4k"
+msgid "4K"
+msgstr "4K"
+
+#: globalizationdatas.rs_profilehd
+msgctxt "globalizationdatas.rs_profilehd"
+msgid "HD"
+msgstr "Haute définition"
+
+#: globalizationdatas.rs_profilelow
+msgctxt "globalizationdatas.rs_profilelow"
+msgid "Low"
+msgstr "Bas"
+
+#: globalizationdatas.rs_profilemail
+msgctxt "globalizationdatas.rs_profilemail"
+msgid "Mail"
+msgstr "Email"
+
+#: globalizationdatas.rs_profilemedium
+msgctxt "globalizationdatas.rs_profilemedium"
+msgid "Medium"
+msgstr "Moyen"
+
+#: globalizationdatas.rs_profilethumb
+msgctxt "globalizationdatas.rs_profilethumb"
+msgid "Thumb"
+msgstr "Miniature"
+
+#: globalizationdatas.rs_profileverylow
+msgctxt "globalizationdatas.rs_profileverylow"
+msgid "Very Low"
+msgstr "Très bas"
+
+#: globalizationdatas.rs_resizedetectrotation
+msgid "Detect rotation"
+msgstr "Détecter la rotation"
+
+#: globalizationdatas.rs_resizeheight
+msgctxt "globalizationdatas.rs_resizeheight"
+msgid "Height"
+msgstr "Hauteur"
+
+#: globalizationdatas.rs_resizeprofile
+msgid "Profile"
+msgstr "Profils"
+
+#: globalizationdatas.rs_resizesaveratio
+msgid "Save ratio"
+msgstr "Sauvegarder le ratio"
+
+#: globalizationdatas.rs_resizewidth
+msgctxt "globalizationdatas.rs_resizewidth"
+msgid "Width"
+msgstr "Largeur"
+
+#: globalizationdatas.rs_resizingrunning
+msgid "Resizing running"
+msgstr "Redimensionnement en cours"
+
+#: globalizationdatas.rs_resizingterminated
+msgid "Resizing complete"
+msgstr "Redimensionnement terminé"
+
+#: globalizationdatas.rs_runbtn
+msgid "Start"
+msgstr "Démarrer"
+
+#: globalizationdatas.rs_stopbtn
+msgid "Stop"
+msgstr "Arrêter"
+
+#: globalizationdatas.rs_tabdestination
+msgid "Destination"
+msgstr "Destination"
+
+#: globalizationdatas.rs_tabfileformat
+msgid "Format"
+msgstr "Format"
+
+#: globalizationdatas.rs_tabpicturelist
+msgid "Images list"
+msgstr "Liste des images"
+
+#: globalizationdatas.rs_tabresize
+msgid "Resizing"
+msgstr "Redimensionnement"
+
+#: globalizationdatas.rs_titledate
+msgctxt "globalizationdatas.rs_titledate"
+msgid "Date"
+msgstr "Date"
+
+#: globalizationdatas.rs_titlename
+msgid "Name"
+msgstr "Nom"
+
+#: globalizationdatas.rs_titlesize
+msgid "Size"
+msgstr "Taille"
+
+#: globalizationdatas.rs_waitingpics
+msgid "Waiting pictures"
+msgstr "En attente d'images"
+
