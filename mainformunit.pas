@@ -25,6 +25,7 @@ type
     check_recursive: TCheckBox;
     check_detectRotation: TCheckBox;
     check_saveRatio: TCheckBox;
+    DropImage: TImage;
     ed_height: TEdit;
     ed_picturesFolder: TEdit;
     ed_renameCustom: TEdit;
@@ -33,10 +34,10 @@ type
     grp_rename: TGroupBox;
     grp_exif: TGroupBox;
     lbl_version: TLabel;
+    lbl_waitPics: TLabel;
     LogoImage: TImage;
     img_preview: TImage;
     btn_leftPic: TImage;
-    lbl_waitPics: TLabel;
     lbl_height: TLabel;
     lbl_hpx: TLabel;
     lbl_pictureInfos: TLabel;
@@ -98,6 +99,7 @@ type
     procedure ResizeComplete;
     procedure ResizeProgress(const imageIndex: integer);
     procedure ResizeError(const message: string);
+    procedure refreshUI;
 
   public
     { public declarations }
@@ -407,20 +409,28 @@ end;
 procedure TMainForm.FormDropFiles(Sender: TObject; const FileNames: array of String);
 var
   i:integer;
+  directory:string;
 begin
   if DirectoryExists(FileNames[0]) then
   begin
-     loadImagesFromDirectory(FileNames[0]);
+    directory := FileNames[0];
+    loadImagesFromDirectory(directory);
   end else begin
+    directory := ExtractFilePath(ExcludeTrailingPathDelimiter(FileNames[0]));
     Setlength(imagesAry, Length(FileNames));
+
     for i:=0 to High(FileNames) do
-        imagesAry[i] := FileNames[i];
+      imagesAry[i] := FileNames[i];
+
+    if Length(imagesAry) > 0 then begin
+       ed_picturesFolder.Text := directory;
+    end;
+
+    refreshGrid;
+
   end;
 
-  if Length(imagesAry) > 0 then begin
-     ed_picturesFolder.Text := FileNames[0];
-  end;
-
+  refreshUI;
 end;
 
 {
@@ -444,11 +454,18 @@ begin
        imagesList.Free;
   end;
 
+  refreshUI;
   refreshGrid;
 
-  if Length( imagesAry ) = 0 then
-    ShowMessage(globalization.getLocale('DIR_IS_EMPTY'));
+end;
 
+procedure TMainForm.refreshUI;
+begin
+  if Length( imagesAry ) = 0 then
+     ShowMessage(globalization.getLocale('DIR_IS_EMPTY'));
+
+   lbl_waitPics.Caption := '';
+   DropImage.Visible:=false;
 end;
 
 procedure TMainForm.refreshGrid;
@@ -456,7 +473,6 @@ var
   i:integer;
 begin
 
-  lbl_waitPics.Caption := '';
   refreshTabCount;
 
   grid_picturesFiles.RowCount := Length(imagesAry) + 1;
